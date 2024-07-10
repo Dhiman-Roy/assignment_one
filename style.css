@@ -2,52 +2,55 @@
 
 body {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
+  width: auto;
 }
-header {
+.header {
   width: 1440px;
   height: 652px;
   text-align: center;
   background-image: url(./assets/Hero-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  padding: 26px 221px 45px 221px;
+
   margin-bottom: 74px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.bannerText {
+.header .bannerText {
   margin: 26px 221px 45px;
 }
-.image {
+.header .image {
   width: 240px;
   height: 240px;
   margin: auto;
   margin-bottom: 32px;
 }
-img {
+.header img {
   width: 100%;
 }
-header h1 {
+.header h1 {
   font-size: 48px;
   font-weight: bolder;
   color: #0d1321;
   margin-bottom: 24px;
 }
-header p {
+.header p {
   font-size: 16px;
   font-weight: normal;
   color: #0d1321;
   margin-bottom: 32px;
 }
-header .bannerButton {
+.header .bannerButton {
   padding: 21px 24px;
   border-radius: 8px;
   background-color: #0d1321;
   border: none;
 }
-header .bannerButton a {
+.header .bannerButton a {
   font-family: "Azeret Mono", monospace;
   font-style: normal;
   text-decoration: none;
@@ -55,4 +58,19 @@ header .bannerButton a {
   font-weight: 600;
   line-height: 23px;
   color: rgb(255, 255, 255);
+}
+.body_wrapper {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section1 {
+  margin: 0 auto;
+  width: 1140px;
+  padding: 80px 97px;
+  text-align: center;
+  background-color: aquamarine;
+}
+.section1 header {
+  margin: 0px 47px;
 }
